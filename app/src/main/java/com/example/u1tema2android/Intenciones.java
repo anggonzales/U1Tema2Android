@@ -35,7 +35,6 @@ public class Intenciones extends AppCompatActivity {
                 Manifest.permission.CALL_PHONE) == PackageManager.PERMISSION_GRANTED) {
             startActivity(intent);
         }
-
     }
 
     public void maps(View view) {

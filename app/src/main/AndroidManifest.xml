@@ -16,7 +16,7 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".FragmentTabHost.MiFragmentTabHost"></activity>
+        <activity android:name=".FragmentTabHost.MiFragmentTabHost" />
         <activity android:name=".mirecyclerview.MiRecyclerView" />
         <activity android:name=".Permisos" />
         <activity android:name=".Multimedia.Multimedia2" />

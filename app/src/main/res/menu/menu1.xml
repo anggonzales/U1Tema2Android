@@ -20,6 +20,11 @@
         android:orderInCategory="2"
         />
 
+    <item android:title="MiFragmenttabhost"
+        android:id="@+id/activity_fragment_tab_host"
+        android:orderInCategory="2"
+        />
+
     <item android:title="RecyclerView"
         android:id="@+id/activity_mi_recycler_view"
         android:orderInCategory="2"
