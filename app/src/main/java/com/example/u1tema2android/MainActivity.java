@@ -7,6 +7,10 @@ import android.os.Bundle;
 import android.view.Menu;
 import android.view.MenuItem;
 
+import com.example.u1tema2android.FragmentTabHost.MiFragmentTabHost;
+import com.example.u1tema2android.Multimedia.Multimedia;
+import com.example.u1tema2android.mirecyclerview.MiRecyclerView;
+
 public class MainActivity extends AppCompatActivity {
 
     @Override
@@ -50,6 +54,11 @@ public class MainActivity extends AppCompatActivity {
 
         if (id == R.id.activity_mi_recycler_view) {
             startActivity(new Intent(this, MiRecyclerView.class));
+            return true;
+        }
+
+        if (id == R.id.activity_fragment_tab_host) {
+            startActivity(new Intent(this, MiFragmentTabHost.class));
             return true;
         }
 

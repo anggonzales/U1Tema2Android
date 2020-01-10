@@ -16,15 +16,15 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".MiFragmentTabHost"></activity>
-        <activity android:name=".MiRecyclerView" />
+        <activity android:name=".FragmentTabHost.MiFragmentTabHost"></activity>
+        <activity android:name=".mirecyclerview.MiRecyclerView" />
         <activity android:name=".Permisos" />
-        <activity android:name=".Multimedia2" />
-        <activity android:name=".Multimedia" />
-        <activity android:name=".MainActivity" />
+        <activity android:name=".Multimedia.Multimedia2" />
+        <activity android:name=".Multimedia.Multimedia" />
+        <activity android:name=".Intenciones" />
         <activity
-            android:name=".Intenciones"
-            android:screenOrientation="landscape">
+            android:name=".MainActivity"
+            android:screenOrientation="portrait">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
